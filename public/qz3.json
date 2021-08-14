@@ -1,0 +1,633 @@
+[{
+        "question_text": "What is true about Iterative Development?",
+        "question_code": "",
+        "option": [
+            "Development is organized into a series of \"mini-projects\".",
+            "The output of an iteration is an experimental prototype(leads to rapid feedback from users).",
+            "One of the benefits of Iterative Development is early feedback.",
+            "One of the benefits of Iterative Development is late mitigationof high risks.",
+            "Each iteration includes only one discipline (i.e. RequirementsAnalysis, Design, Implementation, or Testing)."
+        ],
+        "answer": "0,2"
+    },
+    {
+        "question_text": "What is true about iterations?",
+        "question_code": "",
+        "option": [
+            "The UP recommends an iteration length between two and six weeks.",
+            "The UP recommends an iteration length between six and twelve months.",
+            "If it seems that it will be difficult to meet the deadline, the recommendedresponse is to remove tasks from the iteration.",
+            "If it seems that it will be difficult to meet the deadline, the recommendedresponse is to slip the completion date."
+        ],
+        "answer": "0,2"
+    },
+    {
+        "question_text": "What is true about UP Phases?",
+        "question_code": "",
+        "option": [
+            "Inception is a requirements phase.",
+            "Elaboration is a design phase.",
+            "Inception is not a requirements phase.",
+            "Elaboration is not a design phase."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question_text": "What is true about Use Cases?",
+        "question_code": "",
+        "option": [
+            "Requirements are primarily recorded in Use Cases.",
+            "Requirements are primarily recorded in Function Lists, rather thanin Use Cases.",
+            "The work of an iteration is defined by choosing some Use Case scenarios, or entire Use Cases.",
+            "The work of an iteration is defined by choosing some feature fromFeature List, rather than by choosing some Use Case scenarios, orentire Use Cases."
+        ],
+        "answer": "0,2"
+    },
+    {
+        "question_text": "By the end of Elaboration phase ...",
+        "question_code": "",
+        "option": [
+            "functional requirements (Use Cases) are written.",
+            "there is basis for estimation through to the end of the project.",
+            "non-functional requirements (in the Supplementary Specification)are written.",
+            "the Design Model is finished.",
+            "non-functional requirements are not stabilized.",
+            "functional requirements (Use Cases) are frozen."
+        ],
+        "answer": "0,1,2"
+    },
+    {
+        "question_text": "Domain Concepts are found in ... ",
+        "question_code": "",
+        "option": [
+            "Use Cases",
+            "Use Case Diagrams",
+            "Interaction Diagrams",
+            "Sequence Diagrams"
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "Use the scenario of the \"Post News\" Use Case to find candidate Conceptual Classes.",
+        "question_code": "",
+        "option": [
+            "NewsItem",
+            "Session",
+            "NewsDatabase",
+            "Client",
+            "NewsServer",
+            "NewsHTMLPage",
+            "Manager",
+            "OracleDatabase",
+            "Publisher",
+            "Customer"
+        ],
+        "answer": "0,1,2,3,4"
+    },
+    {
+        "question_text": "What information CRC cards contain? ",
+        "question_code": "",
+        "option": [
+            "class name",
+            "action responsibilities",
+            "knowledge responsibilities",
+            "classes that help the class do its thing",
+            "parent class name",
+            "implemented interface name",
+            "child class name(s)"
+        ],
+        "answer": "0,1,2,3"
+    },
+    {
+        "question_text": "What is the most useful artifact during analysis for investigating the behaviorof the software as a \"black box\"?",
+        "question_code": "",
+        "option": [
+            "Conceptual Class Diagram",
+            "System Sequence Diagram",
+            "Package Diagram",
+            "Deployment Diagram",
+            "Component Diagram"
+        ],
+        "answer": "1"
+    },
+    {
+        "question_text": "For packages that represent subsystems, what is the most common access pattern?",
+        "question_code": "",
+        "option": ["Facade", "Controller", "Command", "Proxy", "Adapter"],
+        "answer": "0"
+    },
+    {
+        "question_text": "Place the correct roles at corresponding responsibilities.",
+        "question_code": "...- Identify Actors and Use Cases- Create complete and consistent set of Use Cases   and requirements (but not for details of each   individual Use Case)- Develop Glossary to facilitate complete/consistent   requirements set...- Detail one or more Use Cases...- Define the \"visual shape\" of the user interface for   one or more Actors (layout, behavior, inter-screen   flow)...- Describe Architectural View of Use Case Model",
+        "option": [
+            "System Analyst",
+            "Use Case Specifier",
+            "User Interface Designer",
+            "Architect"
+        ],
+        "answer": "0,1,2,3"
+    },
+    {
+        "question_text": "Who leads the requirements definition workshop?",
+        "question_code": "",
+        "option": ["End User", "Developer", "System Analyst", "Architect"],
+        "answer": "2"
+    },
+    {
+        "question_text": "What is the most important for use case work?",
+        "question_code": "",
+        "option": [
+            "Writing skills.",
+            "UML diagramming.",
+            "Knowledge and experience in anobject-oriented programming language.",
+            "Knowledge of fundamental object technologyconcepts, such as: class, instance,interface, polymorphism, encapsulation,interfaces, and inheritance.",
+            "None of them."
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "Identify the Primary Actor from the \"NewsService\" Case Study.",
+        "question_code": "",
+        "option": [
+            "NewsItem",
+            "Session",
+            "NewsDatabase",
+            "Client",
+            "NewsServer",
+            "Reader",
+            "Manager",
+            "Publisher",
+            "Customer"
+        ],
+        "answer": "3"
+    },
+    {
+        "question_text": "Identify some Use Cases from the \"NewsService\" Case Study.",
+        "question_code": "",
+        "option": [
+            "Read News",
+            "Post News",
+            "Start Session",
+            "Finish Session",
+            "Generate Confirmation",
+            "Post News Item"
+        ],
+        "answer": "0,1"
+    },
+    {
+        "question_text": "Identify Use Cases from the Actor-Goal list.",
+        "question_code": "",
+        "option": [
+            "Read News",
+            "Post News",
+            "Search News",
+            "Delete News",
+            "Manage Users",
+            "Notify User",
+            "Add User",
+            "List Users",
+            "Modify User",
+            "Delete User",
+            "Post News Item",
+            "CRUD Users",
+            "Generate Notification",
+            "Delete News Item",
+            "Manage Clients"
+        ],
+        "answer": "0,1,2,3,4,5"
+    },
+    {
+        "question_text": "Identify Actors from the \"NewsService\" Use Case Diagram.",
+        "question_code": "",
+        "option": [
+            "Client, Corporate Client, Manager, System Administrator, Timer",
+            "Reader, Writer, Corporate Client, Manager, System Administrator, Timer",
+            "Client, Corporate Client, Manager",
+            "System Administrator, Timer",
+            "Reader, Writer, Corporate Client, Manager",
+            "System Administrator, Timer, Client"
+        ],
+        "answer": "5"
+    },
+    {
+        "question_text": "What is wrong with the following \"Post News\" Use Case?",
+        "question_code": "",
+        "option": [
+            "Post News is not Elementary Business Process (EBP).",
+            "The Actor is not defined.",
+            "There is nothing wrong with \"Post News\" Use Case.  ",
+            "There are implementaion details intermixed with the requirements."
+        ],
+        "answer": "3"
+    },
+    {
+        "question_text": "What is wrong with the following \"Post News\" Use Case?",
+        "question_code": "",
+        "option": [
+            "Post News is too broad to be an Elementary Business Process (EBP).",
+            "Post News is subtask within an Elementary Business Process (EBP).",
+            "Post News does not leave the data in a consistent state.",
+            "There is nothing wrong with \"Post News\" Use Case.  ",
+            "There are design details intermixed with the requirements."
+        ],
+        "answer": "4"
+    },
+    {
+        "question_text": "What is wrong with the following \"Post News\" Use Case?",
+        "question_code": "",
+        "option": [
+            "Post News is too broad to be an Elementary Business Process (EBP).",
+            "Post News is subtask within an Elementary Business Process (EBP).",
+            "Post News does not leave the data in a consistent state.",
+            "There is nothing wrong with \"Post News\" Use Case.  ",
+            "Post News does not use the terminology of the target audience."
+        ],
+        "answer": "4"
+    },
+    {
+        "question_text": "Using the \"Post News\" Use Case main success scenario, determine the system operations and return values for System Sequence Diagram (SSD).Use Case: Post NewsPrimary Actor: ClientMain success scenario: A writer client logs on to the server in order to start a posting session and may post a number of news items. Each news item receives an individual confirmation and at the end of posting, the system issues a general confirmation. News items are stored in a database.",
+        "question_code": "1 - ...2 - ...3 - ...4 - ...5 - ...",
+        "option": [
+            "postNews()",
+            "addNewsItem(item)",
+            "confirmation",
+            "endPostNews()",
+            "confirmation for completion of service",
+            "init()",
+            "add(item)",
+            "individual confirmation_id",
+            "finish()",
+            "global confirmation_id",
+            "insertDBRow(item)",
+            "logout()"
+        ],
+        "answer": "0,1,2,3,4"
+    },
+    {
+        "question_text": "You are creating \"NewsService\" system - a multiuser system which includes many screens and many workflows. What is the best practice to clarify the vision of functional requirements?",
+        "question_code": "",
+        "option": [
+            "Create user interface-oriented prototypes.",
+            "Spend more time in Inception Phase.",
+            "Add more details in Supplementary Specification.",
+            "Prepare Use Cases in fully dressed format."
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "Who should be responsible for receiving system event message?",
+        "question_code": "",
+        "option": [
+            "Controller",
+            "Command",
+            "Pure Fabrication",
+            "Facade",
+            "Session"
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "Client's GUI window needs the ability to refresh its status bar when the status of NewsServer changes.What solution Model-View Separation principle encourages for this problem?",
+        "question_code": "",
+        "option": [
+            "Controller",
+            "Command",
+            "Pure Fabrication",
+            "Facade",
+            "Observer"
+        ],
+        "answer": "4"
+    },
+    {
+        "question_text": "\"NewsService\" system needs to keep track of client's session state.What layer objects are a useful choice for this responsibility?",
+        "question_code": "",
+        "option": [
+            "Application",
+            "Domain",
+            "Technical Services",
+            "Business Infrastructure",
+            "Foundation",
+            "Presentation"
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "Which of the following are true about shown package dependencies?",
+        "question_code": "",
+        "option": [
+            "A class in GUI Package uses the services of a classin Domain Package",
+            "A class in Domain Package uses the services of a classin Database Package",
+            "A class in Domain Package uses the services of a classin GUI Package",
+            "A class in Database Package uses the services ofa class in Domain Package"
+        ],
+        "answer": "0,1"
+    },
+    {
+        "question_text": "GUI Package depends on Database Package.",
+        "question_code": "",
+        "option": ["True", "False"],
+        "answer": "1"
+    },
+    {
+        "question_text": "Which of the following heuristics can be applied to organize Class Diagrams into Package Diagrams?",
+        "question_code": "",
+        "option": [
+            "Classes in the same inheritance hierarchy.",
+            "Classes participate the same Use Case.",
+            "Classes created by the same developer.",
+            "Classes created by the same team."
+        ],
+        "answer": "0,1"
+    },
+    {
+        "question_text": "Which of the following are true?",
+        "question_code": "",
+        "option": [
+            "Client and Server reside on different computers.",
+            "Client and Server reside on the same computer.",
+            "Client and DBServer reside on different computers.",
+            "Client and DBServer reside on the same computer."
+        ],
+        "answer": "0,2"
+    },
+    {
+        "question_text": "What are Broker architecture benefits?",
+        "question_code": "",
+        "option": [
+            "Changeability and extensibility of components",
+            "Portability of broker system",
+            "Interoperability between different broker systems",
+            "Reusability",
+            "Location transparency",
+            "Improved efficiency",
+            "More fault tolerance"
+        ],
+        "answer": "0,1,2,3,4"
+    },
+    {
+        "question_text": "What artifact describes non-functional requirements (quality attributes)?",
+        "question_code": "",
+        "option": [
+            "Supplementary Specification",
+            "Business Case",
+            "Use-Case Model",
+            "Glossary"
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "Given the \"Post News\" Use Case, is there anything wrong with the following partial domain model?Use Case: Post NewsPrimary Actor: ClientPreconditions: 1. Client is authenticated. (Authentication)2. Server has not reached its maximum allowable number of clients logged in. (Authentication)3. No other client is currently reading news. (Synchronization)4. No other client is currently posting news. (Synchronization)5. No other client is currently waiting to post news. (Scheduling)Main success scenario: A writer client logs on to the server in order to start a posting session and may post a number of news items. Each news item receives an individual confirmation and at the end of posting, the system issues a general confirmation. News items are stored in a database.",
+        "question_code": "",
+        "option": [
+            "Nothing is wrong.",
+            "Synchronization, Scheduling, Authentication must be attributes of NewsServer class.",
+            "Client conceptual class must not to be shown,because it is an external actor (human).",
+            "The domain model does not use the vocabulary of thedomain when naming conceptual classes."
+        ],
+        "answer": "3"
+    },
+    {
+        "question_text": "During one of requirements workshops the \"NewsService\" stakeholder said that she needsnews items be categorized in the system (e.g. Politics, World News , Local News). The categories may be hierarchical (e.g. Local News / Career / Job).How can this requirements be satisfied?",
+        "question_code": "",
+        "option": [
+            "Add new Category conceptual class and draw association with NewsItem class.",
+            "Add new category attribute to NewsItem class.",
+            "Do not do anything. Add category name in thebody of each news text.",
+            "Add new category attribute to NewsDatabase class."
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "\"A client logs on to the server in order to start a session and may post or read news. When the user does not submit a request for the specified length of time, the server invalidates the session.\" Which Class Diagram shows the best design?",
+        "question_code": "",
+        "option": ["Diagram A", "Diagram B", "Diagram C", "Diagram D"],
+        "answer": "3"
+    },
+    {
+        "question_text": "The \"NewsService\" system provides services to customers who may be corporations or persons.What class names is the best choice for the Class Diagram?",
+        "question_code": "",
+        "option": [
+            "Cutomer_1, Customer_2",
+            "PersonalCustomer, CorporateCustomer",
+            "personalCustomer, corporateCustomer",
+            "Person, Corporation",
+            "person, corporation"
+        ],
+        "answer": "1"
+    },
+    {
+        "question_text": "\"The NewsServer allows certain designated clients to post information. A writer client logs on to the server in order to start a posting session and may post a number of news items.\"What operation name is the best choice for the NewsServerController class?",
+        "question_code": "",
+        "option": ["addNewsItem", "add", "insert", "add_news_item", "AddNewsItem"],
+        "answer": "0"
+    },
+    {
+        "question_text": "Given the \"Post News\" Use Case, is there anything wrong with the following partial domain model?Use Case: Post NewsPrimary Actor: ClientPreconditions: 1. Client is authenticated. (Authentication)2. Server has not reached its maximum allowable number of clients logged in. (Authentication)3. No other client is currently reading news. (Synchronization)4. No other client is currently posting news. (Synchronization)5. No other client is currently waiting to post news. (Scheduling)Main success scenario: A writer client logs on to the server in order to start a posting session and may post a number of news items. Each news item receives an individual confirmation and at the end of posting, the system issues a general confirmation. News items are stored in a database.",
+        "question_code": "",
+        "option": [
+            "Nothing is wrong.",
+            "Client and NewsServer classes may not havemultiple associations.",
+            "Database conceptual class must not to be shown,because it is a software component, not a class.",
+            "The domain model shows irrelevant conceptualclasses."
+        ],
+        "answer": "3"
+    },
+    {
+        "question_text": "Give correct names to classes' relationships.",
+        "question_code": "1  -   ...2  -   ...3  -   ...4  -   ...",
+        "option": [
+            "Generalization",
+            "Association",
+            "Aggregation",
+            "Composition",
+            "Realization",
+            "Dependency"
+        ],
+        "answer": "0,1,2,3"
+    },
+    {
+        "question_text": "The \"NewsService\" provides registered Users notification when new NewsItems are posted.The Timer thread polls queue which contains recently posted items and sends notifications.Each registered User must receive only one notification per NewsItem. Thus, the system should store information about notification status (sent/not sent).What class will be responsible for storing the status of notification?",
+        "question_code": "",
+        "option": ["Timer", "User", "NewsItem", "none of them"],
+        "answer": "3"
+    },
+    {
+        "question_text": "Is there anything wrong with the Session class?",
+        "question_code": "",
+        "option": [
+            "Nothing is wrong.",
+            "Session class is not well encapsulated.",
+            "Session class does not support low dependency.",
+            "Session class has too many responsibilities, which lowers its cohesion."
+        ],
+        "answer": "1"
+    },
+    {
+        "question_text": "In the \"NewsService\" system there are multiple third-party databases frameworksthat must be supported. The system needs to be able to integrate with different ones. Each database framework facade has a different interface, and so there is similar but varying behavior to adapt to each of these external fixed interfaces or APIs.Which of the following are the best approaches to satisfy this requirement?",
+        "question_code": "",
+        "option": [
+            "Test for the type of database framework facade and use conditional logic to perform varying   alternatives based on type.",
+            "Assign responsibility for the behavior to the types for which the behavior varies.",
+            "Identify points of predicted variation or instability; assign responsibilities to create a stable interface around them.",
+            "Define each algorithm in a separate class, with a common interface."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question_text": "What is true about the database adapters class diagram?",
+        "question_code": "",
+        "option": [
+            "RDBMSAdapter must implement makeItem method.",
+            "FileAdapter must implement makeItem method.",
+            "FlatFileAdapter must implement makeItem method.",
+            "XMLFileAdapter must implement makeItem method.",
+            "RDBMSAdapter may implement makeItem method.",
+            "FileAdapter may implement makeItem method.",
+            "FlatFileAdapter may implement makeItem method.",
+            "XMLFileAdapter may implement makeItem method."
+        ],
+        "answer": "0,2,5,7"
+    },
+    {
+        "question_text": "What is true about the following class diagrams?",
+        "question_code": "",
+        "option": [
+            "Diagram A shows subtyping.",
+            "Diagram B shows subtyping.",
+            "Diagram A shows subclassing.",
+            "Diagram B shows subclassing."
+        ],
+        "answer": "0,3"
+    },
+    {
+        "question_text": "What message can Interaction Diagram starts with?",
+        "question_code": "",
+        "option": [
+            "Every Interaction Diagram starts with a System event message.",
+            "Every Interaction Diagram starts with a User input message.",
+            "Interaction Diagrams can start with any message.",
+            "Every Interaction Diagram starts with a Internal event message.",
+            "Every Interaction Diagram starts with a Temporal event message."
+        ],
+        "answer": "2"
+    },
+    {
+        "question_text": "What is wrong with the following partial \"NewsService\" domain model?",
+        "question_code": "",
+        "option": [
+            "Accosications names should not be shown.",
+            "Accosications multiplicities should not be shown.",
+            "Value Objects attributes should not be shown.",
+            "References attributes should not be shown.",
+            "Accosications navigabilities should not be shown.",
+            "Operations should not be shown.",
+            "Operations/attributres visibilities should be shown."
+        ],
+        "answer": "3,4,5"
+    },
+    {
+        "question_text": "Suppose that support is needed to save NewsItem instances in a relational database.In the same time you do not want to violate High Cohesion and Low Coupling.What GRASP pattern should be applied to satisfy the requirement?",
+        "question_code": "",
+        "option": [
+            "Polymorphism",
+            "Indirection",
+            "Pure Fabrication",
+            "Protected Variations",
+            "Information Expert"
+        ],
+        "answer": "2"
+    },
+    {
+        "question_text": "What is the result of the Sequence Diagram?",
+        "question_code": "",
+        "option": [
+            "Session instance is created,NewsItem instance is created.",
+            "Session instance is created,NewsItem instances are created",
+            "The initiate() method of Session objectis invoked, the create() method of NewsItemobject is invoked.",
+            "None of them."
+        ],
+        "answer": "3"
+    },
+    {
+        "question_text": "What is true about classes from the Interaction Diagram?",
+        "question_code": "",
+        "option": [
+            "Client class must have 'addNewsItem' method.",
+            "NewsItem class must have 'create' method.",
+            "NewsItem class must have 'add' method.",
+            "Session class must have 'addNewsItem' method.",
+            "Client class must have 'createNewsItem' method.",
+            "NewsItem class must have 'createNewsItem' method."
+        ],
+        "answer": "0,3"
+    },
+    {
+        "question_text": "You need to describe the legal sequence events that are recognized and handled by server-side software objects representing  conversations with a client. What type of diagram is the most useful for that?",
+        "question_code": "",
+        "option": [
+            "Statechart Diagram",
+            "Class Diagram",
+            "Activity Diagram",
+            "Sequence Diagram"
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "What are elements names of Post News Statechart Diagram?",
+        "question_code": "1  -  ...2  -  ...3  -  ...",
+        "option": [
+            "State",
+            "Event",
+            "Guard",
+            "Action",
+            "Superstate",
+            "Superaction"
+        ],
+        "answer": "0,1,2"
+    },
+    {
+        "question_text": "Where to use Activity Diagrams?",
+        "question_code": "",
+        "option": [
+            "Help understand a business process",
+            "Capture the workflow of the business thatthe system will support",
+            "Describe control mechanisms within thesystem",
+            "Describe complex sequential algorithm inan operation",
+            "Develop multithreaded applications",
+            "See how objects collaborate",
+            "See how object behave over its lifetime",
+            "Represent complex conditional logic"
+        ],
+        "answer": "0,1,2,3,4"
+    },
+    {
+        "question_text": "Based on the PostNews Activity Diagram, which of the following statements are true?",
+        "question_code": "",
+        "option": [
+            "The 'Inser NewsItem' activity is executed many times.",
+            "The 'Rollback Changes' and 'Invalidate Session' activities are taken in parallel.",
+            "The 'Rollback Changes' and 'Invalidate Session' activities are executed many times.",
+            "The 'Rollback Changes' and 'Generate Confirmation' activities are taken in parallel.",
+            "If session is valid then confirmation is generated.",
+            "If inserting is successful then confirmation is generated."
+        ],
+        "answer": "0,1,5"
+    },
+    {
+        "question_text": "The more depended-on packages should be the most stable.",
+        "question_code": "",
+        "option": ["True", "False"],
+        "answer": "0"
+    },
+    {
+        "question_text": "What is true about the following Class Diagram?",
+        "question_code": "",
+        "option": [
+            "There is only one instance of ServicesFactory class.",
+            "There is only one instance of NewsServer class.",
+            "The ServicesFactory class is an Abstract Factory.",
+            "None of them."
+        ],
+        "answer": "0"
+    }
+]

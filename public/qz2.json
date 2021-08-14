@@ -1,0 +1,258 @@
+[{
+        "question_text": "What is true about assigning Use Cases to iterations?",
+        "question_code": "",
+        "option": [
+            "Use Cases that carry high business valueshould be dealt with early.",
+            "Use Cases that carry high development riskshould be dealt with early.",
+            "Use Cases that carry high business valueshould be put off until the end.",
+            "Use Cases that carry high development riskshould be put off until the end."
+        ],
+        "answer": "0,1"
+    },
+    {
+        "question_text": "During the Construction phase, what should each iteration include?",
+        "question_code": "",
+        "option": [
+            "analysis, design, coding, testing, integration",
+            "design, coding, testing, integration",
+            "analysis, design, coding, testing",
+            "design, coding"
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "What are the correct statements?",
+        "question_code": "",
+        "option": [
+            "Testing should be left to the end.",
+            "Integration should be left to the end.",
+            "Integration should be a continuous process.",
+            "Testing should be a continuous process."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question_text": "Finish the correct statements.",
+        "question_code": "...        tests should be written by the developers, then organized on a     ...    basis....        tests should be developed by a separate small team whose only job is testing.",
+        "option": ["Unit", "package", "Functional", "class", "domain"],
+        "answer": "0,1,2"
+    },
+    {
+        "question_text": "What are the correct statements about Refactoring?",
+        "question_code": "",
+        "option": [
+            "Refactoring changes the functionality of a program.",
+            "Refactoring changes the internal structureof a program.",
+            "Refactoring should be done along with addingnew functionality.",
+            "Refactoring requires Units Tests before it isstarted.",
+            "Refactoring should be done in small steps."
+        ],
+        "answer": "1,3,4"
+    },
+    {
+        "question_text": "Finish the correct statements about Use Cases relationships.",
+        "question_code": "Use       ...       when you are repeating yourself in two or more separate use cases and you want to avoid repetition.Use       ...       when you are describing a variation on normal behavior and you wish to describe it casually.Use       ...       when you are describing a variation on normal behavior and you wish to use the more controlled form, declaring your extension points in your base use case.",
+        "option": ["include", "generalization", "extend", "delegation"],
+        "answer": "0,1,2"
+    },
+    {
+        "question_text": "What is true about Use Cases?",
+        "question_code": "",
+        "option": [
+            "Use Cases represent an external view ofthe system.",
+            "Use Cases represent an internal view ofthe system.",
+            "There are correlations between Use Casesand the classes inside the system.",
+            "There are no correlations between Use Casesand the classes inside the system."
+        ],
+        "answer": "0,3"
+    },
+    {
+        "question_text": "Given the following piece of code, how should you model relationshipbetween \"Printer\" and \"Description\" classes ?public class Printer {    ...        public void printDescription(Description desc) {         print(desc.getName());        print(desc.getOrganization());        ...            }}",
+        "question_code": "",
+        "option": ["diagram A.", "diagram B.", "diagram C.", "diagram D."],
+        "answer": "0"
+    },
+    {
+        "question_text": "The full UML syntax for attributes is:",
+        "question_code": "...         ...        :      ...      =     ...",
+        "option": ["visibility", "name", "type", "defaultValue"],
+        "answer": "0,1,2,3"
+    },
+    {
+        "question_text": "How many operations are shown on the Class Diagram?",
+        "question_code": "",
+        "option": ["Two", "Three", "Four", "Five", "Six", "Seven", "Eight"],
+        "answer": "0"
+    },
+    {
+        "question_text": "How many methods are shown on the Class Diagram?",
+        "question_code": "",
+        "option": ["Two", "Three", "Four", "Five", "Six", "Seven", "Eight"],
+        "answer": "4"
+    },
+    {
+        "question_text": "What is true about Generalization?",
+        "question_code": "",
+        "option": [
+            "Subclassing is one way to implement subtyping.",
+            "Subtyping is one way to implement subclassing."
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "What is true about Design by Contract technique?",
+        "question_code": "An invariant is an assertion about a(n) ...",
+        "option": ["class", "operation", "object", "parameter"],
+        "answer": "0"
+    },
+    {
+        "question_text": "Within a Sequence Diagram ...",
+        "question_code": "",
+        "option": [
+            "Each message is represented by an arrowbetween the lifelines of two objects.",
+            "Each message is represented as a dashed vertical line.",
+            "Each message must be labeled with themessage name.",
+            "Each message must be labeled with themessage name and the number."
+        ],
+        "answer": "0,2"
+    },
+    {
+        "question_text": "What diagram shows a snaphot of the instances in a system at a point in time?",
+        "question_code": "",
+        "option": [
+            "Object Diagram",
+            "System Diagram",
+            "Component Diagram",
+            "Process Diagram",
+            "Class Diagram"
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "What is true about 'duration' attribute on the Implementation Class Diagram?",
+        "question_code": "",
+        "option": [
+            "It is a derived attribute.",
+            "It is a frozen attribute.",
+            "It can be calculated from other attributes.",
+            "It may not change during the lifetime of the 'TimePeriod' object.",
+            "It may be read-only."
+        ],
+        "answer": "0,2,4"
+    },
+    {
+        "question_text": "Which class is the best for answering following question?\"Given the unique 'ArtistIdentificationNumber', is the Artist registered for the Exhibit ?\"",
+        "question_code": "",
+        "option": ["Artist", "Exhibit", "Museum", "none of the shown classes"],
+        "answer": "3"
+    },
+    {
+        "question_text": "Which Design Pattern helps to reduce packages dependencies?",
+        "question_code": "",
+        "option": ["Facade", "Proxy", "Composite", "Factory"],
+        "answer": "0"
+    },
+    {
+        "question_text": "What is true about packages?",
+        "question_code": "",
+        "option": [
+            "You should remove cycles in the dependency structure.",
+            "You should create cycles in the dependency structure."
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "What is true about the State Diagram?",
+        "question_code": "",
+        "option": [
+            "'Active' is a superstate.",
+            "'Active' is a concurrent state.",
+            "'Active' is an asynchronous state.",
+            "The State Diagram uses wrong syntax."
+        ],
+        "answer": "0"
+    },
+    {
+        "question_text": "What is true about Activity Diagrams?",
+        "question_code": "",
+        "option": [
+            "A fork has a single incoming transition and several guarded outgoing transitions.",
+            "A merge has multiple input transitions and a single output.",
+            "A branch has one incoming transition and several taken in parallel outgoing transitions.",
+            "A join synchronizes concurrent threads."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question_text": "What is the maximum number of concurrent threads may run according to the Activity Diagram?",
+        "question_code": "",
+        "option": ["One", "Two", "Three", "Four"],
+        "answer": "2"
+    },
+    {
+        "question_text": "What is the minumum number of concurrent threads may run according to the Activity Diagram?",
+        "question_code": "",
+        "option": ["One", "Two", "Three", "Four"],
+        "answer": "0"
+    },
+    {
+        "question_text": "What is true about Component Diagrams?",
+        "question_code": "",
+        "option": [
+            "A component may have more than one interface.",
+            "A component may not have more than one interface.",
+            "A component represents a physical module of code.",
+            "A component represents some kind of hardware unit."
+        ],
+        "answer": "0,2"
+    },
+    {
+        "question_text": "What method(s) must be implemented by the Secretary class?",
+        "question_code": "",
+        "option": [
+            "acceptApplication(...)",
+            "put(...)",
+            "ok",
+            "notify(...)",
+            "confirm",
+            "needWorker",
+            "getApplication",
+            "get",
+            "application"
+        ],
+        "answer": "0,6"
+    },
+    {
+        "question_text": "What method(s) must be implemented by the Manager class?",
+        "question_code": "",
+        "option": [
+            "acceptApplication(...)",
+            "put(...)",
+            "ok",
+            "notify(...)",
+            "confirm",
+            "needWorker",
+            "getApplication",
+            "get",
+            "application"
+        ],
+        "answer": "3"
+    },
+    {
+        "question_text": "What method(s) must be implemented by the Secretary class?",
+        "question_code": "",
+        "option": [
+            "acceptApplication(...)",
+            "put(...)",
+            "ok",
+            "notify(...)",
+            "confirm",
+            "needWorker",
+            "getApplication",
+            "get",
+            "application",
+            "store"
+        ],
+        "answer": "0,6,9"
+    }
+]
