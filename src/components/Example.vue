@@ -164,13 +164,16 @@ export default {
           index++;
         }
 
-        thisExam.quizs.push(quiz);
+        setTimeout(function(){
+          thisExam.quizs.push(quiz);
+        }, 200)
+        
       });
     }
 
     setTimeout(function() {
       thisExam.quizsDisplay = thisExam.quizs;
-    }, 400);
+    }, 500);
   },
   data() {
     return {
@@ -250,9 +253,8 @@ export default {
       this.isShowAnswer = true;
       // Mở các phần đã ẩn
       for (const key in this.isShowQuizs) {
-          this.isShowQuizs.splice(key, 1, true);
+        this.isShowQuizs.splice(key, 1, true);
       }
-
 
       let quizsSearch = [];
       for (const key in this.quizs) {
