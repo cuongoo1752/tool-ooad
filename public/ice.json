@@ -1,0 +1,625 @@
+[
+    {
+    "question_text": "If a use case had a requirement \"Calculate account balance,\" which OOAD artifact would be the BEST source for determining the name of the public method used to invoke the operation?   ",
+    "question_code": "",
+    "option": [
+      "Use case",
+      "Interaction diagram",
+      "Class diagram",
+      "Activity diagram"
+    ],
+    "answer": "1"
+  },
+    {
+    "question_text": "When scheduling project activities such as functional increments and test case development, which one of the following OOAD artifacts is the MOST useful? ",
+    "question_code": "",
+    "option": [
+      "Use cases",
+      "Interaction diagrams",
+      "Activity diagrams",
+      "Package diagrams",
+      "Class diagrams"
+    ],
+    "answer": "0"
+  },
+    {
+    "question_text": "Which of the following are effective ways to manage an OO project?  ",
+    "question_code": "",
+    "option": [
+      "Organize development teams along the lines of the packages.",
+      "Organize the scheduled tasks so that easy, low-risk items are addressed first.   ",
+      "Organize the test cases to follow the use case scenarios.   ",
+      "Organize the user's guide along the lines of the packages. "
+    ],
+    "answer": "0,2"
+  },
+    {
+    "question_text": "The design for a complex application with a large number of classes has just been completed. Which of the following is the BEST approach for unit-testing the classes?  ",
+    "question_code": "",
+    "option": [
+      "Use the package diagrams to group classes logically and perform unit-testing on a package-by-package basis.",
+      "Use activity diagrams to identify parallel behavior and test classes that use threads.   ",
+      "Use the interaction diagrams to step through the interactions between the classes and perform visual inspection of the code to identify discrepancies.  ",
+      "Use the class diagram to ensure that the classes have been correctly coded and perform unit-testing for each class association and for each class.   "
+    ],
+    "answer": "0"
+  },
+    {
+    "question_text": "An iterative development process:  ",
+    "question_code": "",
+    "option": [
+      "represents a structured methodology, which includes functional decomposition.  ",
+      "is a technique for managing complexity and plans for change during software development.  ",
+      "is a top-down approach without the dataflow diagrams.   ",
+      "is equivalent to an incremental development process."
+    ],
+    "answer": "1"
+  },
+    {
+    "question_text": "To MOST effectively manage teams working on different packages within a large project, which of the following should be TRUE?  ",
+    "question_code": "",
+    "option": [
+      "One technical lead should control the project details and communicate decisions to the different teams.   ",
+      "An architecture board of team leads should negotiate and coordinate changes to inter-package messages.   ",
+      "The team leads should focus on quality designs for the internals of their packages, mentoring their team members.   ",
+      "Communications between the teams should be minimized to reduce overhead burdens while they work on separate, independent use cases for their packages.   "
+    ],
+    "answer": "1"
+  },
+    {
+    "question_text": "When using OOAD artifacts to organize and assign team responsibilities on a project, it is BEST to:  ",
+    "question_code": "",
+    "option": [
+      "evenly distribute use cases among team members and have them work as independently as possible in order to minimize code dependencies.",
+      "designate one team for implementing interaction  diagrams related to the \"common code path\" and another team for implementing interaction diagrams related to \"code path variations\" (for example ? conditional or error paths).  ",
+      "divide teams according to package diagram dependencies and utilize use cases to schedule the work for the individual team members. ",
+      "divide teams according to the layers in the software architecture and have them work as independently as possible in order to minimize dependencies between the layers.   "
+    ],
+    "answer": "2"
+  },
+    {
+    "question_text": "A use case model should:   ",
+    "question_code": "",
+    "option": [
+      "Capture as much design detail as possible.",
+      "Identify all of the actors, use cases, and their relationships.  ",
+      "Describe all of the implementation specifics of an application.   ",
+      "Address both the problem domain and the solution domain."
+    ],
+    "answer": "1"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.Which of the following is the BEST list of candidate interaction diagrams to support the use case?  ",
+    "question_code": "",
+    "option": [
+      "Find available date, Search for client, View client preferences, Book an event, Calculate cost of event, Generate confirmation letter  ",
+      "Find available date, Search for client, View client preferences, Explain menu alternatives, Book an event, Calculate cost of event, Generate confirmation letter",
+      "Find available date, Search for client, View client preferences, Book an event, Calculate cost of event, Request deposit, Generate confirmation letter",
+      "Find available date, Search for client, View client preferences, Book an event, Calculate cost of event, Generate confirmation letter, Mail confirmation letter   "
+    ],
+    "answer": "0"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.What are the system's actors in the diagram? ",
+    "question_code": "",
+    "option": [
+      "Clerk, Manager   ",
+      "Clerk, Manager, Customer",
+      "Clerk, Manager, Bank network",
+      "Clerk, Manager, Bank network, Customer"
+    ],
+    "answer": "2"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.When creating the use cases related to the \"Prepare for an Event\" scenario, which of the following BEST represents the type of terminology that the use cases should contain?",
+    "question_code": "",
+    "option": [
+      "Chef, menu, recipes, ingredients",
+      "End user, bill of fare, cooking specifications, food contents   ",
+      "Chef object, menu object, recipe object, ingredient object   ",
+      "Person record, menu print stream, recipe container, ingredient array   "
+    ],
+    "answer": "0"
+  },
+    {
+    "question_text": "Which of the following are TRUE about services resulting from use cases?  ",
+    "question_code": "",
+    "option": [
+      "New requirements in use cases generally result in one or more public methods in a domain model class.  ",
+      "Private methods are required by the system's use cases.",
+      "Use cases drive the design of interaction diagrams, which in turn define public methods in domain model classes.",
+      "Each alternative scenario of a use case generally results in a new association between classes.   "
+    ],
+    "answer": "0,2"
+  },
+    {
+    "question_text": "When designing the user interface for an application, if it is unclear what skill level the end user of an application will possess, which of the following is the BEST approach to take? ",
+    "question_code": "",
+    "option": [
+      "Define the skill level that will be required by the end user and make the necessary arrangements for educating the users.",
+      "Define the skill level that will be required by the end user and provide detailed on-line help that can be accessed by the users when needed.",
+      "Prototype portions of the user interface and perform some usability tests to identify any problem areas. Document any issues in the product readme and have the users read it before using the product.  ",
+      "Prototype portions of the user interface and perform some usability tests to determine the users' level of satisfaction. Make any necessary changes and repeat the process."
+    ],
+    "answer": "3"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.Which of the following is the BEST set of candidate use cases for the \"Prepare for an Event\" scenario?  ",
+    "question_code": "",
+    "option": [
+      "Prepare for party, Display menu, Generate shopping list, Exclude ingredients on hand, Generate utensil list, Generate to-do list",
+      "Prepare for party, Display menu, Generate shopping list, Generate utensil list, Pack utensils, Generate to-do list",
+      "Display menu, Generate shopping list, Generate utensil list, Generate to-do list",
+      "Display menu, Generate shopping list, Exclude ingredients on hand, Generate utensil list, Generate to-do list  ",
+      "Generate shopping list, Exclude ingredients on hand, Generate utensil list, Generate to-do list, Check utensil list"
+    ],
+    "answer": "2"
+  },
+    {
+    "question_text": "Based on the following statements from a domain expert on a project, which of the following are requirements that MUST be extracted?\"We get incomplete mortgage applications all the time. In those cases, we just hand them back to the customer with a handwritten note telling them what's missing. We have to log the application anyway, so we use the new mortgage screen to enter the customer information and assign a unique identifier to the file. In the past, we have entered the address in upper case. The identifier follows an industry standard format of bank number, customer account number, and the next available number for that customer ? all as one long number.\"  ",
+    "question_code": "",
+    "option": [
+      "A note must be sent to the customer for incomplete mortgage applications, listing the missing items.   ",
+      "A file must be established for every mortgage application at the time it is submitted, whether the application is complete or not.   ",
+      "Addresses on mortgage applications must be entered as all capital letters.  ",
+      "A unique mortgage number must be assigned to each mortgage file. This identifier must follow financial industry standard format.  "
+    ],
+    "answer": "1,3"
+  },
+    {
+    "question_text": "What is WRONG with the following analysis use case?Use case: Sell goodsDescription: Accept tender from a customer, package products being              purchased, and remove the products from inventory.Actors: ClerkPreconditions: Customer has chosen products to buy from inventory.Postconditions: Products are no longer in inventory.                 Store cash balance is increased.Steps:1. The clerk scans the product codes on each item being purchased.2. As each item is scanned, the system calculates a running total,    prints line items on a receipt, and displays the line items to    the clerk on the ReceiptPanel.3. The clerk can remove items from the purchase by pressing the    \"Void item\" button.4. ?5. Once the customer has paid for the items, the items are removed    from inventory and the cash register balance is incremented by    the total amount of the good sold.  ",
+    "question_code": "",
+    "option": [
+      "There are design details intermixed with the requirements.  ",
+      "The actor's actions and system responses are not separated.   ",
+      "\"Sell goods\" is too broad to be a use case.",
+      "There is nothing wrong with this use case."
+    ],
+    "answer": "0"
+  },
+    {
+    "question_text": "Which of the following MUST be present to write use cases?",
+    "question_code": "",
+    "option": [
+      "Development team",
+      "Object technology expert",
+      "Domain expert",
+      "Requirements decision maker"
+    ],
+    "answer": "2,3"
+  },
+    {
+    "question_text": "Which of the following are TRUE about software architectures?",
+    "question_code": "",
+    "option": [
+      "Two tier software architectures do not scale to as many clients as three (or more) tier architectures.",
+      "Two tier architectures lead to more reuse than three or more tier architectures.  ",
+      "Thin clients are restricted to GUI parts.",
+      "Dividing the application architecture into Model, View and Controller layers leads to flexibility."
+    ],
+    "answer": "0,3"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.Referring to the deployment diagram, Figure Deployment, for a system that manages mortgages, which of the following are TRUE?",
+    "question_code": "",
+    "option": [
+      "GUI classes should be in the Branch Client process.  ",
+      "These components comprise a three-tier architecture, whether they execute on the same or different computers.  ",
+      "For scalability, the business objects should reside in the Financial Apps Server.  ",
+      "Client integration is at the Database Server."
+    ],
+    "answer": "0,1,2"
+  },
+    {
+    "question_text": "Which of the following is TRUE about a deployment diagram?  ",
+    "question_code": "",
+    "option": [
+      "Since there is always some kind of response to a message, the dependencies are two-way between deployment components.",
+      "Dependencies between deployment components tend to be the same as the package dependencies.  ",
+      "Deployment diagrams are NOT to be used to show physical modules of code.  ",
+      "Deployment diagrams do NOT show physical distribution of a system across computers.   "
+    ],
+    "answer": "1"
+  },
+    {
+    "question_text": "Valid reasons for grouping classes into the same package are that the classes:",
+    "question_code": "",
+    "option": [
+      "are related by aggregation.",
+      "are worked on by the same group of developers.",
+      "are related by specialization.",
+      "support the same high-level services."
+    ],
+    "answer": "2,3"
+  },
+    {
+    "question_text": "Benefits resulting from designing and implementing layered application components include:",
+    "question_code": "",
+    "option": [
+      "Reduced initial design time.",
+      "Reduced time for initial development cycle.",
+      "Reduction of GUI layer changes impacting the model layer.  ",
+      "Maintainability and reuse of the application components.   "
+    ],
+    "answer": "2,3"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.Given the dependency in the Figure Packages, which of the following is correct?",
+    "question_code": "",
+    "option": [
+      "Changes to the Loan package require an examination of the Customer and Account  packages to see if changes are required to their classes.  ",
+      "Changes to the Loan package require an examination of the Customer package to see if changes are warranted. If they are, the Account package needs to be examined to  see if changes are required to its classes.",
+      "Changes to the Account package require an examination of the Customer package to see if changes are warranted. If they are, the Loan package needs to be examined to see if changes are required to its classes.  ",
+      "Changes to the packages can be made independently of changes to other packages since dependencies have been localized to each of the packages' internal designs. "
+    ],
+    "answer": "2"
+  },
+    {
+    "question_text": "A system undergoing performance testing is found to be \"thrashing\" (a condition that occurs when there is too much concurrency). Which of the following artifacts would be MOST helpful to uncover the problem?",
+    "question_code": "",
+    "option": [
+      "The use case descriptions",
+      "A state diagram",
+      "A process view",
+      "An activity diagram",
+      "A collaboration diagram"
+    ],
+    "answer": "2,3"
+  },
+    {
+    "question_text": "Which of the following is the BEST strategy for resolving class name collisions that occur during OO analysis?",
+    "question_code": "",
+    "option": [
+      "Allow each team member to choose names for only those classes which they will build.",
+      "Create a class for each domain name, passing on requests to the one class that implements the behavior for all of them to share.  ",
+      "Discover unique names for different concepts that are referred to by the same term.   ",
+      "Put the classes into different packages so that the fully qualified class names are different.   "
+    ],
+    "answer": "2"
+  },
+    {
+    "question_text": "Refer to the exhibits to answer the question.If there is a new requirement to re-stock the warehouse automatically as products are sold, how is the new requirement BEST handled? ",
+    "question_code": "",
+    "option": [
+      "Add a deliver() method to the Supplier class that uses the InventoryProduct's amountOnHand  attribute to maintain the InventoryProducts in the warehouse.  ",
+      "Add \"reorderLevel\" and \"reorderQuantity\" to InventoryProduct. Create a Warehouse class that monitors the InventoryProducts' \"amountOnHand\", generating an order as levels drop below a \"reorderQuantity\".   ",
+      "Add \"reorderLevel\" and \"reorderQuantity\" attributes used by a new deplete() method in the Inventory class. Use these to generate new orders as InventoryProducts are sold.   ",
+      "Add \"reorderLevel\" and \"reorderQuantity\" attributes used by a new deplete() method in the InventoryProduct class. Use these to generate new orders as InventoryProducts are sold."
+    ],
+    "answer": "3"
+  },
+    {
+    "question_text": "Which of the following are recommended when developing an OO system?",
+    "question_code": "",
+    "option": [
+      "Write a description of the concept that a class represents whenever a new class is declared.  ",
+      "Use interfaces for types or roles that objects may play, independent of their location in the class hierarchy.",
+      "Apply design patterns where applicable in the system.  ",
+      "Name classes based on their design specifics, such as \"array\" or \"queue\"."
+    ],
+    "answer": "0,1,2"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.Which of the following correctly describes the relationship?",
+    "question_code": "",
+    "option": [
+      "Access to SalesLineItems is by Product. A SalesTransaction can have multiple SalesLineItems for one Product.",
+      "Access to Products is by SalesLineItem. A SalesTransaction has zero or more SalesLineItems for one Product.",
+      "SalesTransactions contain Products, which are listed by one or more SalesLineItems.",
+      "SalesLineItems are for a quantity of one or more Products for a particular SalesTransaction. "
+    ],
+    "answer": "0"
+  },
+    {
+    "question_text": "UML interfaces are used to:",
+    "question_code": "",
+    "option": [
+      "define an API for all classes.",
+      "program in Java, but not in C++ or Smalltalk.",
+      "define executable logic to reuse across classes.",
+      "specify required services for types of objects."
+    ],
+    "answer": "3"
+  },
+    {
+    "question_text": "Refer to the exhibits to answer the question.There are two new requirements for IBMStore.com: discounts for damaged goods, and searches by size and color. Using Figure Sample 2, which of the following is the BEST way to extend the class diagram to handle these requirements? ",
+    "question_code": "",
+    "option": [
+      "Extend the InventoryProduct class to handle the new requirements. ",
+      "Create a new class \"PhysicalProduct\" that represents an actual product in the warehouse. Associate the PhysicalProduct with its related InventoryProduct.",
+      "Add new capabilities to the Inventory class for the management of its Products.",
+      "No changes are needed due to these requirements."
+    ],
+    "answer": "1"
+  },
+    {
+    "question_text": "A resulting benefit of using polymorphism is reduction of:",
+    "question_code": "",
+    "option": [
+      "methods in the associated classes.",
+      "subclasses needed to accomplish the same functionality.",
+      "case statements and conditionals.",
+      "coupling between classes in the system."
+    ],
+    "answer": "2"
+  },
+    {
+    "question_text": "Refer to the designs below:- In Design #1, the Catalog object has a getProducts() method, which returns   a xx collection object, such as a Dictionary or array, containing all the   Products the company sells.  - In Design #2, the Catalog object has a getProductNumbered(anIdentifier) method,   which returns the Product with the specified unique identifier.Considering a requirement to get a specific product, which of the following BEST characterizes the two designs?  ",
+    "question_code": "",
+    "option": [
+      "Both designs maintain the objects' encapsulation and reduce coupling by accessing state data via methods only and not directly.",
+      "Both designs break the objects' encapsulation, adding brittle coupling.  ",
+      "Design #1 adds brittle coupling. Design #2 maintains the encapsulation of the Catalog, making future design changes easier.  ",
+      "Design #1 maintains the encapsulation of the Catalog by hiding the implementation details in the getProducts() method. Design #2 breaks the encapsulation of the Catalog since it uses anIdentifier as the Product key."
+    ],
+    "answer": "2"
+  },
+    {
+    "question_text": "Which of the following are TRUE about interpreting class diagrams from different perspectives?",
+    "question_code": "",
+    "option": [
+      "Specification perspective class diagrams are developed without considering the programming language that might be used to implement it.  ",
+      "The conceptual perspective class diagram of an application would not include all the classes required and their details, rather, they would only identify domain classes.",
+      "In the conceptual perspective, associations represent relationships between classes, whereas they represent responsibilities in the specification perspective.",
+      "Operations (the processes that a class knows to carry out) should be used in conceptual models to specify the interface of a class."
+    ],
+    "answer": "1,2"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.Which of the following are TRUE?",
+    "question_code": "",
+    "option": [
+      "Classes \"X\" and \"Y\" are subclasses of Mortgageable.  ",
+      "Instances of \"X\" and \"Y\" can be passed as parameters declared as type Mortgageable.   ",
+      "\"X\" and \"Y\" must implement a getAppraisedValue() method.",
+      "There are instances of Mortgageable in the production system."
+    ],
+    "answer": "1,2"
+  },
+    {
+    "question_text": "Refer to the partial requirements below:When the loan officer receives the completed application for a new mortgage, a folder will be created for the customer. The loan officer will then commission an appraisal of the collateral property and request financial information from the customer's financial institutions and workplace.Which of the following is TRUE? ",
+    "question_code": "",
+    "option": [
+      "The verbs in the requirements become methods in the object model.  ",
+      "Some of the verbs in the requirements become methods of the nouns they reference. E.g., a FinancialInstitution class would have a getFinancialInformationFor(aCustomer) method.  ",
+      "Some of the verbs in the requirements become methods of the concept taking the action. E.g., a LoanOfficer class would have a getFinancialInformationFor(aCustomer) method.",
+      "Some of the verb phrases in the requirements become overriding methods of the related superclass, due to the specialization of the action."
+    ],
+    "answer": "1"
+  },
+    {
+    "question_text": "When creating a subclass, which of the following are TRUE?",
+    "question_code": "",
+    "option": [
+      "The selected superclass should be chosen because it has some methods the subclass can reuse, even if others do not apply.",
+      "The class name should normally be a qualification of its superclass' name.  ",
+      "The subclass should be of the same type as all of its superclasses.  ",
+      "The superclass should be marked as abstract."
+    ],
+    "answer": "1,2"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.What methods MUST be implemented by the Account class?   ",
+    "question_code": "",
+    "option": [
+      "withdraw, checkBalance",
+      "withdraw, log, checkBalance",
+      "withdraw, checkBalance, acknowledge",
+      "withdraw, acknowledge"
+    ],
+    "answer": "0"
+  },
+    {
+    "question_text": "Refer to the exhibits to answer the question.What are the names of missing classes XXX and YYY in Figure Sample 3? ",
+    "question_code": "",
+    "option": [
+      "XXX = DeliverySchedule, YYY = Supplier  ",
+      "XXX = Supplier, YYY = DeliverySchedule  ",
+      "XXX = PreferredSupplier, YYY = DeliverySchedule   ",
+      "XXX = DeliverySchedule, XXX = PreferredSupplier   "
+    ],
+    "answer": "1"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.Which of the following is the correct description of the sequence diagram? When an instance of a:",
+    "question_code": "",
+    "option": [
+      "Person is asked for its assets, it sums the balances of each of its asset Accounts.",
+      "Customer is asked for its assets, it sums the balances of each of its asset Accounts.  ",
+      "Person is asked for its assets, it returns the balance of its asset Account.  ",
+      "Customer is asked for its assets, it returns the balance of its asset Account.   "
+    ],
+    "answer": "0"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.Which activities can occur concurrently?",
+    "question_code": "",
+    "option": [
+      "Generate closing paperwork, Schedule closing",
+      "Get property appraised, Verify assets, Check credit rating  ",
+      "All the activities can occur concurrently.  ",
+      "None of the activities can occur concurrently"
+    ],
+    "answer": "0,1"
+  },
+    {
+    "question_text": "In an OO system, it is desirable to assign responsibilities:",
+    "question_code": "",
+    "option": [
+      "according to interaction diagram messaging.  ",
+      "more heavily in a few controlling classes.",
+      "relatively evenly across the classes.",
+      "to minimize the overhead of message-passing."
+    ],
+    "answer": "0,2"
+  },
+    {
+    "question_text": "Which of the following are TRUE about interaction diagrams?",
+    "question_code": "",
+    "option": [
+      "Interaction diagrams are at their best when they illustrate multiple scenarios.  ",
+      "Interaction diagrams are good at designing part or all of one use case's functionality across multiple objects.",
+      "Interaction diagrams are good for static modeling, since they fill out the classes and methods in the domain.",
+      "Interaction diagrams allow the analyst to show iteration and conditional execution for messaging between objects.",
+      "Sequence diagrams are logically equivalent to collaboration diagrams, differing primarily in format of presentation."
+    ],
+    "answer": "1,3,4"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.Assume that there is a requirement to add state transitions to a \"Cancelled\" state from any states except \"Closed\". Which of the following are valid ways to add the \"Cancelled\" state? ",
+    "question_code": "",
+    "option": [
+      "Funnel all cancellations from only one of the other states.  ",
+      "Add a \"Cancelled\" superstate to the diagram.  ",
+      "Add transitions from \"Submitted\" and \"Qualified\" to a new \"Cancelled\" state.  ",
+      "Add an \"Active\" superstate that handles the transition to \"Cancelled\".   "
+    ],
+    "answer": "2,3"
+  },
+    {
+    "question_text": "Given the requirement statement below, which of the following public methods would be used in a related sequence diagram?When a mortgage payment is received, the appropriate amortization table will be used to calculate the interest and principle amounts to apply against the balance. ",
+    "question_code": "",
+    "option": [
+      "aBalance.subtract(anAmount)",
+      "anAmortizationTable.calculateInterestUsing(aPayment)",
+      "anAmortizationTable.apply(aPayment)",
+      "aMortgage.apply(aPayment)"
+    ],
+    "answer": "1,3"
+  },
+    {
+    "question_text": "Which of the following are TRUE about State diagrams?",
+    "question_code": "",
+    "option": [
+      "They are good at depicting the behavior of an object across multiple use cases. ",
+      "They are good at depicting interactions among multiple objects.   ",
+      "They are best used for objects that have multiple interesting states and not for most or all the objects in the system.",
+      "They can be used for user interface or control objects.   "
+    ],
+    "answer": "0,2,3"
+  },
+    {
+    "question_text": "What is the BEST model change for the following new requirements in the mortgage processing system?A government agency (taxing authority) maintains and updates its tax rates on an annual basis. A property's taxable value is also reassessed annually by the taxing authority. When the taxable value changes, it must be remembered. Requests for the amount of taxes due use the present taxable value for the property and tax rates in effect for the taxing authority.  ",
+    "question_code": "",
+    "option": [
+      "Add an updateAssessedValue(newValue) method to the Mortgage class, which uses newValue in collaboration with the Property's tax rates to provide tax amounts.",
+      "Add an updateAssessedValue(newValue) method to the Property class, which uses newValue in collaboration with the TaxingAuthority's tax rates to provide tax amounts.",
+      "Add an updateAssessedValue(newValue) method to the TaxingAuthority class, which uses its  tax rates to provide tax amounts.",
+      "Add an updateAssessedValue(newValue) method to the Property class, which uses its tax notes to provide tax amounts."
+    ],
+    "answer": "1"
+  },
+    {
+    "question_text": "Which of the following details are REQUIRED in OO diagrams?",
+    "question_code": "",
+    "option": [
+      "Show navigability of associations in conceptual class diagrams. ",
+      "Show different scenarios of a use case on the same interaction diagram for clear understanding.  ",
+      "Show message sequence numbers in collaboration diagrams.  ",
+      "If asynchronous messages exist in a scenario, show them in interaction diagrams.   "
+    ],
+    "answer": "2,3"
+  },
+    {
+    "question_text": "Which of the following are TRUE about the strengths and weaknesses of activity diagrams?",
+    "question_code": "",
+    "option": [
+      "Activity diagrams are good at enumerating object collaborations to accomplish a task.",
+      "Activity diagrams are good at exploring the interactions related to one or more use cases.",
+      "It is difficult to discern exactly how to map the activity diagram actions to object model specifics.   ",
+      "Since activity diagrams allow parallel behavior modeling, they are good for workflow modeling.   "
+    ],
+    "answer": "1,2,3"
+  },
+    {
+    "question_text": "There is a non-OO legacy application which interacts with back-end systems. It is now required to redesign this application into an OO system that caters to high volume of requests. Which of the following need to be considered while modeling the system? ",
+    "question_code": "",
+    "option": [
+      "It is not necessary to define classes such that they represent the data fields in the back-end. The object model should capture the behavior of the legacy system.",
+      "The object model should consist of classes which match the back-end data fields. This aids the persistence of classes.  ",
+      "Draw activity diagrams to understand the behavior of the existing legacy system.  ",
+      "The GUI client objects need to be behavioral driven and they directly communicate with the database.  "
+    ],
+    "answer": "0,2"
+  },
+    {
+    "question_text": "When it comes time to write code, an interaction diagram can quickly provide information on which of the following? ",
+    "question_code": "",
+    "option": [
+      "Navigability of associations",
+      "The sequence of method calls",
+      "Conditions under which a message is sent",
+      "State changes in an object  ",
+      "Iteration in the control flow"
+    ],
+    "answer": "1,2,4"
+  },
+    {
+    "question_text": "An Observer is a design pattern where dependent objects \"register\" with another \"server\" object so that they are notified of changes to the server object. The server object isn't specifically aware of its dependents, but only knows to notify them of changes to its state. Which of the following uses an Observer pattern to maintain the correct separation of model and view in a layered software architecture? ",
+    "question_code": "",
+    "option": [
+      "GUI components register with business components so that they can update their views when the underlying model objects change.  ",
+      "GUI components register with other GUI components so that can be notified of user changes to the state of the system.  ",
+      "Business components register with GUI components so that the GUI components know who to ask for updates to their state. ",
+      "Business components register with other business components so that they can enforce business rules based on state change.   "
+    ],
+    "answer": "0"
+  },
+    {
+    "question_text": "Refer to the exhibit to answer the question.A partial class diagram of a college course management application is shown in the exhibit. A student knows all of the instructors with whom s/he is registered with. Similarly, an instructor also knows all the students who are registered with him/her. A new requirement is added which specifies that an instructor can also be a student for some courses. What is the BEST partial application redesign shown in the Figure? ",
+    "question_code": "",
+    "option": [
+      "Design 'A'",
+      "Design 'B'",
+      "Design 'C'",
+      "Design 'D'",
+      "Design 'E'"
+    ],
+    "answer": "2"
+  },
+    {
+    "question_text": "Which of the following are good practices to use while designing for reuse?",
+    "question_code": "",
+    "option": [
+      "Define a persistence framework that provides services for persisting objects.  ",
+      "Use design patterns, wherein complete solutions are already defined. ",
+      "Use controller objects to control the flow of processes in the system.  ",
+      "Assign responsibilities to classes such that coupling between them remains low.  ",
+      "Design classes with low cohesion."
+    ],
+    "answer": "0,3"
+  },
+    {
+    "question_text": "What are good practices to follow during refactoring?",
+    "question_code": "",
+    "option": [
+      "Renaming a method and moving a field from one class to another should be done in small steps, testing changes as required.",
+      "Break down classes that are heavily loaded with responsibilities into smaller classes and distribute the responsibilities among them effectively.",
+      "Consolidate similar methods from different classes in the same type hierarchy into a common super class wherever possible.  ",
+      "Add functionality and refactor simultaneously in order to obtain an efficient and effective design. "
+    ],
+    "answer": "0,1,2"
+  },
+    {
+    "question_text": "Which of the following are TRUE about implementing a system based on existing OOAD assets? ",
+    "question_code": "",
+    "option": [
+      "Due to constraints introduced by the target language, such as C++, Smalltalk, or Java, as well as physical packaging, the OO analysis model does not carry forward into detailed design and implementation.",
+      "The classes, methods, attributes, and relationships identified during the OO analysis carry forward into detailed design and implementation.",
+      "The OO analysis model is usually refactored later in the project.  ",
+      "The classes from the OO analysis are expanded to add private methods and collaborations with helper classes."
+    ],
+    "answer": "1,2,3"
+  },
+    {
+    "question_text": "During implementation, the development team decides to use a third party utility to provide some of the required functionality. What OOAD artifact would MOST likely reflect this change?",
+    "question_code": "",
+    "option": [
+      "Activity diagram",
+      "Package diagram",
+      "State diagram",
+      "Interaction diagram"
+    ],
+    "answer": "1"
+  }
+]

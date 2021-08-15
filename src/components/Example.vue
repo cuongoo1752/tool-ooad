@@ -2,6 +2,7 @@
   <v-container>
     <v-row class=" d-flex justify-center align-center">
       <v-col class="mb-4" xl="6" lg="8" md="10" sm="10" xs="12">
+        <!-- <v-btn @click="onClickTest">Test</v-btn> -->
         <h1 class="display-3 font-weight-bold my-5 mb-9">
           Tool Ôn thi OOAD
         </h1>
@@ -11,63 +12,124 @@
           label="Nhập từ khóa tìm kiếm vào đây!"
           v-model="textSearch"
           @keyup="onChangeSearch"
+          @focus="$event.target.select()"
         ></v-textarea>
         <!-- Button -->
         <v-row align="center" justify="space-around" class="mx-0 mb-5 mt-1">
-          <v-btn @click="handleShowAllQuestion" depressed color="primary" large>
+          <v-btn
+            @click="handleShowAllQuestion"
+            depressed
+            color="primary"
+            large
+            class="mb-2"
+          >
             Hiện thị tất cả câu hỏi
           </v-btn>
-          <v-btn v-if="isShowAnswer" @click="showAnswer" depressed color="info" large>
+          <v-btn
+            v-if="isShowAnswer"
+            @click="showAnswer"
+            depressed
+            color="info"
+            large
+            class="mb-2"
+          >
             Ẩn thị đáp án
           </v-btn>
-          <v-btn v-else @click="showAnswer" depressed color="info" large>
+          <v-btn
+            v-else
+            @click="showAnswer"
+            depressed
+            color="info"
+            large
+            class="mb-2"
+          >
             Hiện thị đáp án
           </v-btn>
         </v-row>
 
         <div v-for="(quiz, index) in quizsDisplay" :key="index">
           <p class="display-1 font-weight-bold my-7">
+            <v-btn
+              v-if="isShowQuizs[index]"
+              @click="showQuiz(index, false)"
+              depressed
+              class="mr-1 mb-1"
+            >
+              Ẩn
+            </v-btn>
+            <v-btn
+              v-else
+              depressed
+              @click="showQuiz(index, true)"
+              class="mr-1 mb-1"
+            >
+              Hiện
+            </v-btn>
+
             {{ nameQuizs[index] }}
           </p>
 
           <p v-if="quiz.length == 0" class="title font-weight-regular mb-0">
             Không có câu hỏi được tìm thấy!
           </p>
+          <div v-if="isShowQuizs[index]">
+            <div v-for="(item, indexItem) in quiz" :key="item.key">
+              <!-- Title -->
+              <p class="title font-weight-bold mb-0">
+                {{ item.key }}. {{ item.question_text }}
+              </p>
+              <p class="title font-weight-regular">
+                {{ item.question_code }}
+              </p>
+              <!-- Answers -->
+              <div class="">
+                <div
+                  style="cursor: pointer;"
+                  class="subtitle-1  mb-1"
+                  v-for="(option, indexOpt) in item.option"
+                  :key="indexOpt"
+                  @click="handleClickAnswer(index, indexItem, indexOpt)"
+                >
+                  <v-icon
+                    v-if="isShowAnswer"
+                    class="pb-1"
+                    color="green darken-2"
+                    :style="{
+                      opacity: handleStateAnswer(indexOpt, item.answer),
+                    }"
+                  >
+                    mdi-checkbox-marked-circle
+                  </v-icon>
 
-          <div v-for="(item, indexItem) in quiz" :key="item.key">
-            <!-- Title -->
-            <p class="title font-weight-bold mb-0">
-              {{ item.key }}. {{ item.question_text }}
-            </p>
-            <p class="title font-weight-regular">
-              {{ item.question_code }}
-            </p>
-            <!-- Answers -->
-            <div class="">
-              <div
-                style="cursor: pointer;"
-                class="subtitle-1  mb-1"
-                v-for="(option, indexOpt) in item.option"
-                :key="indexOpt"
-                @click="handleClickAnswer(index, indexItem, indexOpt)"
-                
-              >
-                <v-icon v-if="isShowAnswer" class="pb-1" color="green darken-2" :style="{opacity: handleStateAnswer( indexOpt, item.answer)}">
-                  mdi-checkbox-marked-circle
-                </v-icon>
-                
-                <span :class="{'font-weight-bold primary--text': item.tick[indexOpt]}">  {{ alphabet[indexOpt] }}. {{ option }}</span>
+                  <span
+                    :class="{
+                      'font-weight-bold primary--text': item.tick[indexOpt],
+                    }"
+                  >
+                    {{ alphabet[indexOpt] }}. {{ option }}</span
+                  >
+                </div>
               </div>
-            </div>
 
-            <p v-if="isShowAnswer && item.answer.length > 1" class="title font-weight-bold mb-0 mt-3">
-              Thứ tự đáp áp: {{item.answer}}
-            </p>
-            <p v-if="isShowAnswer && item.answer.length > 1" class="title font-weight-regular mb-0">
-              Chú ý: 0 tương ứng với A, 1 tương ứng với B, 2 tương ứng C, 3 tương ứng D,...
-            </p>
-            <v-divider class="my-5"></v-divider>
+              <p
+                v-if="isShowAnswer && item.answer.length > 1"
+                class="title font-weight-bold mb-0 mt-3"
+              >
+                Thứ tự đáp áp: {{ item.answer }}
+              </p>
+              <p
+                v-if="isShowAnswer && item.answer.length > 1"
+                class="title font-weight-regular mb-0"
+              >
+                Chú ý: 0 tương ứng với A, 1 tương ứng với B, 2 tương ứng C, 3
+                tương ứng D,...
+              </p>
+              <v-divider class="my-5"></v-divider>
+            </div>
           </div>
+          <p v-else class="title font-weight-regular mb-0">
+            Câu hỏi đã ẩn!
+          </p>
           <v-divider class="mb-7"></v-divider>
         </div>
       </v-col>
@@ -95,7 +157,7 @@ export default {
 
           // Khỏi tại phẩn đánh dấu
           quiz[keyQuiz].tick = [];
-          for(let i = 0; i < quiz[keyQuiz].option.length; i++){
+          for (let i = 0; i < quiz[keyQuiz].option.length; i++) {
             quiz[keyQuiz].tick.push(false);
           }
 
@@ -116,12 +178,14 @@ export default {
       quizs: [],
       // Mảng dữ liệu hiển thị
       quizsDisplay: [],
-      urlData: ["/qz1.json", "/qz2.json", "/qz3.json"],
+      urlData: ["/qz1.json", "/qz2.json", "/qz3.json", "/ice.json"],
       nameQuizs: [
         "Quiz 1: IBM 000-486 (OOAD with UML) (50 questions)",
         "Quiz 2: IBM 000-486 (OOAD with UML) (27 questions)",
-        "Quiz 3: IBM 000-486 (OOAD with UML) Final Exam (154 questions)",
+        "Quiz 3: IBM 000-486 (OOAD with UML) Final Exam (54 questions)",
+        "Quiz 4: IBM 000-486 (OOAD with UML) ICE Test (56 questions)",
       ],
+      isShowQuizs: [true, true, true, true],
       alphabet: [
         "A",
         "B",
@@ -156,6 +220,7 @@ export default {
      * Created By: LMCUONG(14/08/2021)
      */
     onClickTest() {
+      console.log(this.quizs);
       console.log(this.quizsDisplay);
     },
     /**
@@ -176,13 +241,18 @@ export default {
       };
       rawFile.send(null);
     },
-    /** 
-    * Khi ký tự thay đổi trong ô tìm kiếm
-    * Created By: LMCUONG(15/08/2021) 
-    */
+    /**
+     * Khi ký tự thay đổi trong ô tìm kiếm
+     * Created By: LMCUONG(15/08/2021)
+     */
     onChangeSearch() {
-
+      // Hiển thị câu trả lời
       this.isShowAnswer = true;
+      // Mở các phần đã ẩn
+      for (const key in this.isShowQuizs) {
+          this.isShowQuizs.splice(key, 1, true);
+      }
+
 
       let quizsSearch = [];
       for (const key in this.quizs) {
@@ -219,32 +289,33 @@ export default {
     showAnswer() {
       this.isShowAnswer = !this.isShowAnswer;
     },
-    /** 
-    * Xử lý hiển thị dấu tích đáp án hay không
-    * @param {}  
-    * @returns {number} 1 - nếu có đáp án, 0 - nếu không có đáp án  
-    * Created By: LMCUONG(15/08/2021) 
-    */
-    handleStateAnswer( indexOpt, answer){
-
-      if(answer.includes(`${indexOpt}`)){
-        return 1
-      }
-      else{
+    /**
+     * Xử lý hiển thị dấu tích đáp án hay không
+     * @param {}
+     * @returns {number} 1 - nếu có đáp án, 0 - nếu không có đáp án
+     * Created By: LMCUONG(15/08/2021)
+     */
+    handleStateAnswer(indexOpt, answer) {
+      if (answer.includes(`${indexOpt}`)) {
+        return 1;
+      } else {
         return 0;
       }
-
     },
-    handleShowAllQuestion(){
+    handleShowAllQuestion() {
       this.textSearch = "";
       this.onChangeSearch();
     },
-    handleClickAnswer(index, indexItem, indexOpt){
-      // this.quizsDisplay[index][indexItem].tick[indexOpt] = !this.quizsDisplay[index][indexItem].tick[indexOpt];
-      this.quizsDisplay[index][indexItem].tick.splice(indexOpt, 1, !this.quizsDisplay[index][indexItem].tick[indexOpt])
-      console.log(this.quizsDisplay[index][indexItem].tick[indexOpt]);
-
-    }
+    handleClickAnswer(index, indexItem, indexOpt) {
+      this.quizsDisplay[index][indexItem].tick.splice(
+        indexOpt,
+        1,
+        !this.quizsDisplay[index][indexItem].tick[indexOpt]
+      );
+    },
+    showQuiz(index, stateShow) {
+      this.isShowQuizs.splice(index, 1, stateShow);
+    },
   },
 };
 </script>
