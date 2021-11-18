@@ -1,24 +1,5 @@
-# tool-ooad
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Sản phẩm nhỏ Ôn luyện môn học Phân tích thiết kế hướng đối tượng(OOAD)
+## 1. Chức năng chính
+- Xem danh sách câu hỏi ôn luyện
+- Tìm kiếm, hiển thị đáp án từ câu hỏi
+## 2. Công nghệ sử dụng: VueJS
